@@ -1,0 +1,43 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+h1{
+    text-align: center;
+}
+
+
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    
+  }
+  .card {
+    margin: 0 auto;
+  }
+ 
+
+  .card .card-img-top {
+    width: 18rem;
+    height: 200px;
+    overflow: hidden;
+  }
+
+.badge-large{
+  font-size: large;
+
+}
+.custom-bg-color{
+  background-color: rgb(228, 228, 228);
+  width: fit-content;
+  
+}
+
+.footer {
+  font-size: small;
+  text-align: center;
+}
